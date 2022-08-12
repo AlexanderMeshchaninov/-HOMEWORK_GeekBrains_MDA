@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Mda.Lessons.Core\Mda.Lessons.Core.csproj" />
+      <ProjectReference Include="..\Mda.Lessons.HostingService\Mda.Lessons.HostingService.csproj" />
+      <ProjectReference Include="..\Restaurant.Messaging\Restaurant.Messaging.csproj" />
+      <ProjectReference Include="..\Restaurant.Notifications\Restaurant.Notifications.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="appsettings.json" />
+      <Content Include="appsettings.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>
