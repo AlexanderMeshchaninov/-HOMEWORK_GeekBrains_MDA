@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{430F1FCC-8341-4A38-B80A-D7C0AD288B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBrains.Mda.Runner", "GeekBrains.Mda.Runner\GeekBrains.Mda.Runner.csproj", "{AACCF215-4D5B-4165-9F50-60F74A0CAD0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBrains.Mda.Logic", "GeekBrains.Mda.Logic\GeekBrains.Mda.Logic.csproj", "{E082AD9B-F236-443A-83CC-BDE511F72C86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AACCF215-4D5B-4165-9F50-60F74A0CAD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACCF215-4D5B-4165-9F50-60F74A0CAD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACCF215-4D5B-4165-9F50-60F74A0CAD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACCF215-4D5B-4165-9F50-60F74A0CAD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E082AD9B-F236-443A-83CC-BDE511F72C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E082AD9B-F236-443A-83CC-BDE511F72C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E082AD9B-F236-443A-83CC-BDE511F72C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E082AD9B-F236-443A-83CC-BDE511F72C86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E082AD9B-F236-443A-83CC-BDE511F72C86} = {430F1FCC-8341-4A38-B80A-D7C0AD288B9B}
+	EndGlobalSection
+EndGlobal
