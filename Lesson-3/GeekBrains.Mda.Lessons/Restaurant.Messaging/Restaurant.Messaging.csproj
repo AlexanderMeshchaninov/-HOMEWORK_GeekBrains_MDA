@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Restaurant.Messaging</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Mda.Lessons.Configuration\Mda.Lessons.Configuration.csproj" />
+      <ProjectReference Include="..\Mda.Lessons.Core\Mda.Lessons.Core.csproj" />
+      <ProjectReference Include="..\Mda.Lessons.Dto\Mda.Lessons.Dto.csproj" />
+      <ProjectReference Include="..\Mda.Lessons.MassTransit\Mda.Lessons.MassTransit.csproj" />
+      <ProjectReference Include="..\Mda.Lessons.RabbitMQ\Mda.Lessons.RabbitMQ.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+</Project>
