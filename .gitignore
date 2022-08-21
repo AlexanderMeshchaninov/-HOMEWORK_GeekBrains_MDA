@@ -348,3 +348,13 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+Lesson-1/GeekBrains.Mda.Lessons/GeekBrains.Mda.Logic/.DS_Store
+Lesson-1/GeekBrains.Mda.Lessons/.DS_Store
+Lesson-1/.DS_Store
+Lesson-3/.DS_Store
+.DS_Store
+Lesson-4/GeekBrains.Mda.Lessons/.idea
+Lesson-5/GeekBrains.Mda.Lessons/.idea
+Lesson-6/GeekBrains.Mda.Lessons/.idea
+*.md
+README.md
