@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  rabbit:
+    image: heidiks/rabbitmq-delayed-message-exchange:latest
+    environment:
+      - RABBITMQ_DEFAULT_USER=user
+      - RABBITMQ_DEFAULT_PASS=test
+    ports:
+      - "5671:5671" 
+      - "5672:5672"
+      - "15672:15672"
