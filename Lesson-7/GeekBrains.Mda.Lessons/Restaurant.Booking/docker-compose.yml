@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+  
+  rabbit:
+    image: heidiks/rabbitmq-delayed-message-exchange:latest
+    container_name: rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=user
+      - RABBITMQ_DEFAULT_PASS=test
+    ports:
+      - "5671:5671" 
+      - "5672:5672"
+      - "15672:15672"
+  
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
